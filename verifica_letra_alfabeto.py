@@ -4,6 +4,7 @@ letra = input("Digite uma letra do alfabeto: ").lower()
 if len(letra) != 1 or not letra.isalpha():
     print("Por favor, digite apenas uma letra válida do alfabeto.")
 elif letra in 'aeiou':
-    print("A letra '{letra}' é uma vogal.")
+    print(f"A letra '{letra}' é uma vogal.")
 else:
-    print("A letra '{letra}' é uma consoante.")
+    print(f"A letra '{letra}' é uma consoante.")
+
